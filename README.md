@@ -10,5 +10,5 @@ The crawling scripts must run in **Chrome** browser. To pull data for a city tha
 
 When new cities' data are purchased, cityInfos array needs to be repopulated. To do so, follow the steps below:
 *   Make sure `console.save.js` and `creis.crawl.js` are loaded.
-*   In the console, type `getPermittedCitys(function(cities) {console.log(JOSN.stringify(cities, null, 4))})`
+*   In the console, type `getPermittedCitys(function(cities) {console.log(JSON.stringify(cities, null, 4))})`
 *   The new city info array will be printed to the console, copy it into `creis.crawl.js` and replace the value of existing `cityInfos` variable.
